@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Afaq Ahmad's personal portfolio showcasing web development skills, projects, and contact information.">
+
+  <title>Afaq Ahmad | Frontend Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Afaq<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact" class="nav-contact">Let's Talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Available for opportunities
+        </div>
+
+        <p class="eyebrow">HELLO, I'M A DEVELOPER</p>
+
+        <h1>
+          Afaq Ahmad<br>
+          <span class="gradient-text">Frontend Developer.</span>
+        </h1>
+
+        <p class="hero-description">
+          I build modern, responsive and visually engaging websites
+          that combine clean code with meaningful user experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work ↗
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:your-email@example.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+
+        <div class="code-card">
+          <div class="code-header">
+            <div class="window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span>developer.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="purple">const</span> developer = {</p>
+            <p class="indent">name: <span class="green">'Afaq Ahmad'</span>,</p>
+            <p class="indent">role: <span class="green">'Frontend Developer'</span>,</p>
+            <p class="indent">skills: [</p>
+            <p class="indent double"> 'HTML', 'CSS',</p>
+            <p class="indent double"> 'JavaScript'</p>
+            <p class="indent">],</p>
+            <p class="indent">passion: <span class="green">'Building for the web'</span></p>
+            <p>};</p>
+            <p class="code-comment">// Turning ideas into reality.</p>
+          </div>
+
+          <div class="code-footer">
+            <span class="status-dot"></span>
+            <span>Ready to build something great</span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-top">✦ Creative</div>
+        <div class="floating-badge badge-bottom">{"</>"} Clean Code</div>
+      </div>
+    </section>
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little about who I am and what I do.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card reveal">
+          <div class="about-icon">✦</div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm Afaq Ahmad, a passionate frontend developer who enjoys
+            transforming ideas into beautiful and functional websites.
+            I focus on responsive layouts, clean code and user-friendly
+            interfaces.
+          </p>
+          <p>
+            I'm continuously improving my skills through practical
+            projects and internship assignments.
+          </p>
+        </div>
+
+        <div class="about-stats reveal">
+          <div class="stat-card glass-card">
+            <span class="stat-number">01</span>
+            <h3>Creative Thinking</h3>
+            <p>Turning concepts into thoughtful designs.</p>
+          </div>
+
+          <div class="stat-card glass-card">
+            <span class="stat-number">02</span>
+            <h3>Responsive Design</h3>
+            <p>Experiences that work across screen sizes.</p>
+          </div>
+
+          <div class="stat-card glass-card">
+            <span class="stat-number">03</span>
+            <h3>Always Learning</h3>
+            <p>Growing through practice and new challenges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p>Technologies I use to bring websites to life.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon orange">5</div>
+          <h3>HTML5</h3>
+          <p>Semantic structure and accessible markup.</p>
+          <div class="skill-track"><span style="--level:90%"></span></div>
+          <small>Core skill</small>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon blue">3</div>
+          <h3>CSS3</h3>
+          <p>Modern styling, layouts and animations.</p>
+          <div class="skill-track"><span style="--level:85%"></span></div>
+          <small>Core skill</small>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon yellow">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interactive components and web functionality.</p>
+          <div class="skill-track"><span style="--level:65%"></span></div>
+          <small>Developing</small>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon purple">R</div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first layouts for different devices.</p>
+          <div class="skill-track"><span style="--level:85%"></span></div>
+          <small>Core skill</small>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon green">G</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control and project collaboration.</p>
+          <div class="skill-track"><span style="--level:65%"></span></div>
+          <small>Developing</small>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon pink">UI</div>
+          <h3>UI Design</h3>
+          <p>Visual hierarchy, spacing and user experience.</p>
+          <div class="skill-track"><span style="--level:75%"></span></div>
+          <small>Developing</small>
+        </article>
+      </div>
+    </section>
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>A selection of projects I've worked on and continue to improve.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-one">
+            <span class="preview-label">01 / BEAUTY</span>
+            <div class="preview-window">
+              <span>LUMÉA</span>
+              <h3>Beauty<br>Essentials</h3>
+              <p>Discover your glow.</p>
+              <div class="preview-circle"></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>HTML</span><span>CSS</span><span>Responsive</span>
+            </div>
+            <h3>LUMÉA Beauty</h3>
+            <p>
+              A responsive beauty website featuring elegant layouts,
+              product categories and a polished visual experience.
+            </p>
+            <a class="project-link" href="#contact">
+              Discuss Project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-two">
+            <span class="preview-label">02 / E-COMMERCE</span>
+            <div class="preview-window shop-preview">
+              <span>VELORA</span>
+              <h3>Style that<br>speaks.</h3>
+              <p>Curated essentials.</p>
+              <div class="shop-shapes">
+                <div></div><div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>VELORA Store</h3>
+            <p>
+              An ecommerce concept with product cards, category sections
+              and a clean, modern shopping experience.
+            </p>
+            <a class="project-link" href="#contact">
+              Discuss Project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-three">
+            <span class="preview-label">03 / PORTFOLIO</span>
+            <div class="preview-window dev-preview">
+              <span>YOUR DIGITAL SPACE</span>
+              <h3>Ideas into<br>experiences.</h3>
+              <div class="dev-lines"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Developer Portfolio</h3>
+            <p>
+              A personal portfolio concept showcasing skills, projects,
+              professional information and contact details.
+            </p>
+            <a class="project-link" href="#contact">
+              Discuss Project <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="resume-card glass-card reveal">
+        <div class="resume-icon">↧</div>
+        <div class="resume-content">
+          <p class="eyebrow">MY EXPERIENCE & JOURNEY</p>
+          <h2>Want to know more <span class="gradient-text">about me?</span></h2>
+          <p>
+            Explore my resume for more information about my skills,
+            education, projects and experience.
+          </p>
+        </div>
+        <a href="resume.pdf" download class="btn btn-primary">
+          Download Resume ↓
+        </a>
+      </div>
+    </section>
+
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project <span class="gradient-text">in mind?</span></h2>
+        <p>Let's discuss your ideas and create something meaningful.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info glass-card reveal">
+          <h3>Let's work together.</h3>
+          <p>
+            Have an opportunity, a question or a project idea?
+            Send me a message.
+          </p>
+
+          <a href="mailto:your-email@example.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>
+              <small>Email me</small>
+              <strong>your-email@example.com</strong>
+            </span>
+          </a>
+
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">in</span>
+            <span>
+              <small>Connect professionally</small>
+              <strong>LinkedIn Profile ↗</strong>
+            </span>
+          </a>
+
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">⌘</span>
+            <span>
+              <small>Explore my code</small>
+              <strong>GitHub Profile ↗</strong>
+            </span>
+          </a>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text"
+                placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input id="email" name="email" type="email"
+                placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text"
+              placeholder="What is it about?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell me about your idea..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">
+            Send Message ↗
+          </button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">Afaq<span>.</span></a>
+    <p>Designed & built with care by Afaq Ahmad.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <small>© <span id="year"></span> Afaq Ahmad. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
