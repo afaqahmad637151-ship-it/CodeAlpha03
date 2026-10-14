@@ -1,5 +1,4 @@
 
-/* ===== GLOBAL STYLES ===== */
 :root {
   --bg: #09090d;
   --surface: #111118;
@@ -108,8 +107,6 @@ textarea:focus-visible {
   color: var(--muted);
   margin-top: 14px;
 }
-
-/* ===== NAVBAR ===== */
 .navbar {
   position: sticky;
   top: 0;
@@ -168,8 +165,6 @@ textarea:focus-visible {
   font-size: 1.4rem;
   cursor: pointer;
 }
-
-/* ===== HERO ===== */
 .hero {
   min-height: 640px;
   display: grid;
@@ -277,8 +272,6 @@ textarea:focus-visible {
 .social-links a:hover {
   color: var(--pink);
 }
-
-/* ===== HERO CODE CARD ===== */
 .hero-visual {
   position: relative;
   display: grid;
@@ -418,8 +411,6 @@ textarea:focus-visible {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-9px); }
 }
-
-/* ===== GLASS CARDS ===== */
 .glass-card {
   background: linear-gradient(
     145deg,
@@ -436,7 +427,6 @@ textarea:focus-visible {
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
 }
 
-/* ===== ABOUT ===== */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -493,7 +483,6 @@ textarea:focus-visible {
   margin-bottom: 0;
 }
 
-/* ===== SKILLS ===== */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -554,8 +543,6 @@ textarea:focus-visible {
   color: var(--muted);
   font-size: 0.73rem;
 }
-
-/* ===== PROJECTS ===== */
 .projects-section {
   width: min(1160px, 90%);
 }
@@ -781,8 +768,6 @@ textarea:focus-visible {
 .project-link:hover {
   color: var(--pink);
 }
-
-/* ===== RESUME ===== */
 .resume-card {
   display: flex;
   align-items: center;
@@ -817,7 +802,6 @@ textarea:focus-visible {
   font-size: 0.87rem;
 }
 
-/* ===== CONTACT ===== */
 .contact-grid {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
@@ -935,7 +919,6 @@ textarea:focus-visible {
   overflow-wrap: anywhere;
 }
 
-/* ===== FOOTER ===== */
 .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -962,8 +945,6 @@ textarea:focus-visible {
   color: #77778a;
   font-size: 0.75rem;
 }
-
-/* ===== SCROLL REVEAL ===== */
 .reveal {
   opacity: 0;
   transform: translateY(25px);
@@ -974,8 +955,6 @@ textarea:focus-visible {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* ===== RESPONSIVE: TABLET ===== */
 @media (max-width: 900px) {
   .section {
     padding: 80px 0;
@@ -1025,8 +1004,6 @@ textarea:focus-visible {
     grid-template-columns: 1fr;
   }
 }
-
-/* ===== RESPONSIVE: MOBILE ===== */
 @media (max-width: 650px) {
   .navbar {
     padding: 14px 5%;
@@ -1168,7 +1145,6 @@ textarea:focus-visible {
   }
 }
 
-/* ===== ACCESSIBILITY ===== */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
